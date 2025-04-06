@@ -6,6 +6,8 @@ const AuthContext = createContext(null);
 // Backend URL from environment variables
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000';
 
+console.log(BACKEND_URL);
+
 /*
  * This provider should export a `user` context state that is 
  * set (to non-null) when:
